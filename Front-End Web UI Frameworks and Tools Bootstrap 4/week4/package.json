@@ -1,0 +1,25 @@
+{
+    "name": "week4",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "dependencies": {
+        "less": "^2.7.2",
+        "lite-server": "^2.5.4",
+        "live-server": "^1.2.1",
+        "node-sass": "^5.0.0"
+    },
+    "devDependencies": {
+        "onchange": "^7.1.0",
+        "parallelshell": "^3.0.2"
+    },
+    "scripts": {
+        "start": "npm run lite",
+        "scss": "node-sass -o styles/ styles/",
+        "lite": "live-server",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC"
+}
